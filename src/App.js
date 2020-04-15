@@ -15,12 +15,12 @@ import { connect } from 'react-redux'
 const App = ( props ) => {
 
     const removeFeature = ( item ) => {props.removeFeature( item )}
-    const buyItem = item => {props.addFeature(item)}
+    const buyItem = item => {props.addFeature( item )}
 
     return (
         <div className="boxes">
             <div className="box">
-                <Header car={props.car} {...console.log(props.car)} />
+                <Header car={props.car} />
                 <AddedFeatures car={props.car} removeFeature={removeFeature} />
             </div>
             <div className="box">
@@ -31,7 +31,8 @@ const App = ( props ) => {
     )
 }
 
-function mapStateToProps( state ) {
+function mapStateToProps(state) {
+    
     return {
         car: state.car,
         store: state.store,

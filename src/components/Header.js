@@ -1,6 +1,7 @@
 // External imports
 import React from 'react'
 import { connect } from 'react-redux'
+import CurrencyFormat from 'react-currency-format'
 
 
 const Header = (props) => {
@@ -11,7 +12,7 @@ const Header = (props) => {
                 <img src={props.car.image} alt={props.car.name} />
             </figure>
             <h2>{props.car.name}</h2>
-            <p>Amount: ${props.car.price + props.additionalPrice}</p>
+            <p>Amount:&nbsp;<CurrencyFormat value={props.car.price + props.additionalPrice} displayType={'text'} thousandSeparator={true} prefix={'$'} /></p>
         </div>
     )
 }
