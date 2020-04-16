@@ -15,7 +15,7 @@ import { connect } from 'react-redux'
 const App = ( props ) => {
 
     const removeFeature = ( item ) => {props.removeFeature( item )}
-    const buyItem = item => {props.addFeature( item )}
+    const buyItem = ( item ) => {props.addFeature( item )}
 
     return (
         <div className="boxes">
