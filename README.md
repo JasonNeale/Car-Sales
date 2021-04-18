@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a98b5c5f-7320-439f-bd28-9a6e2508d70a/deploy-status)](https://app.netlify.com/sites/car-sales-jg/deploys)
+---
 # Module Project: Redux - Car Sales
 
 In this project you are given the skeleton/structure/styling of a React app. There is even some state built in for you. Your job will be to implement React-Redux as the state management system for this application.
