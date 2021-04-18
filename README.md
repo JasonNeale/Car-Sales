@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a98b5c5f-7320-439f-bd28-9a6e2508d70a/deploy-status)](https://app.netlify.com/sites/car-sales-jg/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a98b5c5f-7320-439f-bd28-9a6e2508d70a/deploy-status)](https://app.netlify.com/sites/car-sales-jg/deploys) [LIVE VIEW](https://car-sales-jg.netlify.app/)
 ---
 # Module Project: Redux - Car Sales
 
